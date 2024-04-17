@@ -1,13 +1,28 @@
-# Sample Hardhat Project
+# Deploying a Token Contract on Lisk using Hardhat
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a beginner tutorial meant to help guide developers on building on the Lisk Blockchain.
 
-Try running some of the following tasks:
+---
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+#### By [Anthony Kimani](https://github.com/anthonykimani) 
+
+---
+
+#### Table of contents
+
+- [Description](#description)
+- [Requirements](#requirements)
+- [Development](#development)
+- [Testing](#testing)
+
+---
+
+### Description
+
+`MyToken.sol` is a simple Token Contract where users can mint tokens, grantMinterRoles.
+
+---
+
+### Requirements
+
+- Hardhat Runtime Environment for smart contract development.
