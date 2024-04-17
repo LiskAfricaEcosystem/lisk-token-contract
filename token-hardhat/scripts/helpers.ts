@@ -19,8 +19,8 @@ import {
     );
   
     const publicClient = createPublicClient({
-      chain: chains.sepolia,
-      transport: httpTransport
+      chain: chains.liskSepolia,
+      transport: http()
     })
   
     // Creates an Account from a private key.
@@ -29,8 +29,8 @@ import {
     // create a walletClient
     const deployer = createWalletClient({
       account: account,
-      chain: chains.sepolia,
-      transport: httpTransport,
+      chain: chains.liskSepolia,
+      transport: http(),
     });
   
     return { publicClient, deployer };

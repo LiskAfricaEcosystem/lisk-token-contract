@@ -157,6 +157,12 @@ main().catch((error) => {
 
 ```
 
+- To deploy the contract we can run `npx hardhat run scripts/DeployMyToken.ts`. You will get an output like:
+
+![image](./img/deployed-output.png)
+
+- We can view the deployed contract [here](https://sepolia-blockscout.lisk.com/address/0xFa1F7F1c6e66B35087E22D7F0e7A1bB082FEf7f8) using the [Lisk Sepolia Testnet Explorer](https://sepolia-blockscout.lisk.com/) 
+
 ---
 
 ### Testing
