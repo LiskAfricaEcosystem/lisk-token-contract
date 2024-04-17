@@ -1,10 +1,15 @@
 {
   "name": "hardhat-project",
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox-viem": "^3.0.0",
     "hardhat": "^2.22.2"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.0.2"
+    "@openzeppelin/contracts": "^5.0.2",
+    "chai": "^4.4.1",
+    "viem": "^2.9.20"
   }
 }
